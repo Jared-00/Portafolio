@@ -1,0 +1,84 @@
+.img-perfil img {
+    width: 40rem;
+    height: 40rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+.img-fluid{
+    width: 400px;
+    height: 300px;
+}
+
+/*boton de info*/
+.btn-button {
+  align-items: center;
+  appearance: none;
+  background-color: #050c24;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #536DFE;
+  border: 2px solid #FAFAFA;
+  
+  box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 56px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 20px;
+  height: 63px;
+}
+
+.btn-button:focus {
+  outline: none;
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px, rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.btn-button:hover {
+  box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn-button:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* boton de proyectos*/
+.btn-button2 {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin-top: 0px; /* Ajusta este valor según sea necesario */
+  margin-bottom: 35px; /* Mantén el margen inferior como estaba */
+  text-decoration: none;  /*quitar subrayado*/
+}
+
+.btn-button2:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
